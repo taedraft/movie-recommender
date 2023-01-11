@@ -591,71 +591,22 @@ public class MovieApp {
       System.out.println("");
       if (index >= 0) {
          System.out.println("Movie found at " + index + " : " + movieList.get(index).getTitle());
-        // System.out.println(movieList.get(index).getRating());
+         // System.out.println(movieList.get(index).getRating());
       } else {
          System.out.println("Movie not found");
       }
 
-       //show JOptionPane from Review class
-        //Review review = new Review();
-       Review.showPopUp();
+      // show JOptionPane from Review class
+      Review review = new Review();
+      review.showPopUp();
 
       System.out.println("");
       System.out.println("End of code");
-   
-}
-      public static void Print(String text) {
+
+   }
+
+   public void Print(String text) {
       System.out.println(text);
-      }
-}   
-       
-   
+   }
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   
-       
-
-      
-
-
-      
-      
-
-      
+}
